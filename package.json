@@ -40,5 +40,6 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "homepage": "https://levin-yk.github.io/backbonejs-summary/"
 }
