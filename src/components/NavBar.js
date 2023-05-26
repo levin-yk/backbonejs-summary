@@ -13,7 +13,7 @@ function NavBar() {
     tile1 += 'slideIn';
   } else if (referrer.endsWith('/')) {
     tile1 += 'slideout';
-  } else if (referrer == current) {
+  } else if (referrer === current) {
     tile1 += 'hidden';
   }
 
@@ -29,8 +29,8 @@ function NavBar() {
       </div>
       <div className={tile1}>
         <div className='icon'>
-          <img src={icon} className='img-icon' />
-          <img src={text} className='img-text' />
+          <img src={icon} alt='' className='img-icon' />
+          <img src={text} alt='' className='img-text' />
         </div>
       </div>
     </div>

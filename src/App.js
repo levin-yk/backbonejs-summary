@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route exact path={ROUTES.HOME} element={<Home/>} />
-          <Route exact path={ROUTES.TRANSRATE} element={<Translate/>} />
+          <Route path={ROUTES.HOME} element={<Home/>} />
+          <Route path={ROUTES.TRANSRATE} element={<Translate/>} />
         </Routes>
       </BrowserRouter>
     </div>
